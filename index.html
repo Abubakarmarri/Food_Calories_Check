@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esay_Gains.com.PK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+
+        <header>
+            <div class="logo">
+                <img src="Logo.png" alt="">
+            </div>
+        </header>
+
+        <div class="main">
+            <h1>Wellcome to Our website <br> there are <span>8</span> healthy Foods they can help you to
+                <br><span>weight
+                    Gain easy</span>
+            </h1>
+            <button id="mainBtn" onclick="scrollFunc()">Click Here<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+    <main>
+
+        <div id="all-info">
+            <i class="fa-solid fa-xmark" onclick="closeDetail()"></i>
+            <div class="img-sec">
+                <img id="bigImg" src="banana.jfif">
+            </div>
+            <div class="info-sec">
+                <h1 class="heading">Banana</h1>
+                <p class="peragraph"></p>
+                <h2>Nutrition Facts</h2>
+                <div class="nutraiton-sec">
+                    <img class="infoImage" src="img1.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="banana.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Banana</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="beef.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Beef Meat</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="butter.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Butter</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="oats.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Rolled Oats</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="dates.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>medjool Dates</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="Soya Chunks.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Soya Chunks</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="chia seed.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Chia Seeds</h1>
+
+            </div>
+
+            <div class="info">
+                <div class="image">
+                    <img class="displayItem" src="eggs.jfif" onclick="showDetail(this.src)">
+                </div>
+                <h1>Eggs</h1>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Easy_Gains.PK All rights reserved ©2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
